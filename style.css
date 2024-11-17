@@ -1,0 +1,101 @@
+:root {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.5rem;
+    font-family: "Overpass";
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+main {
+    background-color: hsl(213, 19%, 18%);
+    max-width: 40rem;
+    border-radius: 2.4rem;
+    padding: 2.4rem;
+    @media screen and (max-width: 375px) {
+        margin: 0 2.4rem;
+    }
+}
+main h1 {
+    color: hsl(0, 0%, 100%);
+    margin-top: 2.4rem;
+}
+main p {
+    color: hsl(217, 12%, 63%);
+    margin-top: .6rem;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    display: inline;
+}
+.img1 {
+    background-color: hsl(213, 13%, 29%);
+    padding: 1rem;
+    border-radius: 50%
+}
+.btn {
+    padding: 1.2rem 2rem;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(213, 13%, 29%);
+    color: hsl(217, 12%, 63%);
+    @media screen and (max-width: 375px) {
+        padding: .8rem 1.6rem;
+    }
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(213, 19%, 18%);
+}
+.active {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(213, 19%, 18%);
+}
+button {
+    width: 100%;
+    padding: .6rem;
+    border-radius: 2.4rem;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+}
+button:hover {
+    cursor: pointer;
+    background-color: hsl(0, 0%, 100%);
+}
+.second {
+    display: none;
+    text-align: center;
+    padding: .6rem;
+}
+.ans {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 13%, 29%);
+    max-width: 65%;
+    margin: auto;
+    border-radius: 1.2rem;
+    padding: .2rem;
+    @media screen and (max-width: 375px) {
+        max-width: 90%;
+    }
+}
+.img2 {
+    margin: 0 auto 2rem;
+}
+.attribution {
+    font-size: 1.1rem;
+    text-align: center;
+    color: hsl(25, 97%, 53%);
+}
+.attribution a {
+    color: hsl(0, 0%, 100%);
+}
